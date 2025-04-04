@@ -1,0 +1,1 @@
+/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  images: {\n    domains: ['public.blob.vercel-storage.com'],\n  },\n}\n\nmodule.exports = nextConfig
